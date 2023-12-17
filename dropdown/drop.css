@@ -1,0 +1,104 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(../images/dropdownpic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* position: static; */
+    overflow: hidden;
+}
+.select-menu{
+    width: 380px;
+    margin: 140px auto;
+}
+.select-menu .select-btn{
+    display: flex;
+    height: 55px;
+    background: #fff;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    position: static;
+}
+.select-btn i{
+    font-size: 25px;
+    transition: 0.3s;
+}
+.select-menu.active .select-btn i{
+    transform: rotate(-180deg);
+}
+.select-menu .options{
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    display: none;
+}
+.select-menu.active .options{
+    display: block;
+}
+.options .option{
+    display: flex;
+    height: 55px;
+    cursor: pointer;
+    padding: 0 16px;
+    border-radius: 8px;
+    align-items: center;
+    background: #fff;
+}
+.options .option:hover{
+    background: #F2F2F2;
+}
+.option i{
+    font-size: 25px;
+    margin-right: 12px;
+}
+.option .option-text{
+    font-size: 18px;
+    color: #333;
+}
+
+.btn{
+    font-size: 18px;
+    color: #fff;
+    width: 100%;
+    /* background: #69275c; */
+    /* font-weight: 600; */
+    transition: 0.3s ease;
+    padding: 14px 15px;
+   border: none;
+    margin-top: 25px;
+    top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1)
+    
+}
+.btn a{
+    color: black;
+    text-decoration: none;
+}
+@media(max-width:1530px){
+    body{
+        background-image: url(../images/pro.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+   
+}

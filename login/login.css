@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Hedvig+Letters+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(../images/profilo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #434242;
+    font-weight: 1000;
+    font-size: 30px;
+  }
+
+  
+  label {
+    margin-bottom: 8px;
+    color: #434242;
+    font-weight: 800;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    background: transparent;
+    transition: 0.3s ease; 
+    outline: none;
+
+}
+  
+input:hover{
+    background-color: #505f7b; 
+    color: wheat;
+    transition: 0.3s ease;
+   
+
+}
+::placeholder{
+    color: rgb(44, 47, 50);
+}
+  
+  button {
+    background: transparent;
+    color: #434242;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 1000;
+    font-size: 20px;
+   
+  }
+  button a{
+    text-decoration: none;
+    color: #434242;
+  }
+  
+  button:hover {
+    background-color: #505f7b;
+  }
+
+  @media(max-width:768px) {
+    body {
+        font-family: 'Arial', sans-serif;
+        background: #505f7b;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        
+      }
+    
+  }
+  
